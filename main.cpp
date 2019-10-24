@@ -106,6 +106,7 @@ int main() {
     cout << "Thank you for playing!" << endl;
     cout << "Your record was " << winCount << "-" << lossCount << "-" << tieCount << " (W-L-T)" << endl;
 
-    pileOfCards = discardPile;
+
+    discardPile = pileOfCards;
     return 0;
 }
